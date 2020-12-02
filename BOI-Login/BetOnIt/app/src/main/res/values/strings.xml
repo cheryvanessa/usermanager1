@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BetOnIt</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">HN4zvsNdFVKCysvRvkofvxiH0siW8FJpUuNc9htf</string>
+    <string name="back4app_client_key">HoK9JoBJTyHpwKiKthv5TZT1pXUr7qMTuKf4KpHo</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvBetOnIt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="100px"
+        android:layout_marginRight="75px"
+        android:gravity="center_horizontal"
+        android:text="Bet On It -"
+        android:textSize="30sp">
+        Bet On It -</TextView>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBetOnIt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:gravity="center_horizontal"
+        android:text="Create An Account"
+        android:textSize="30sp">
+        Create An Account</TextView>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRegister"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="75px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:hint="Username">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUsername"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:inputType="textPassword"
+        tools:text="Password">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPasscodeCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPasscode"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:inputType="textPassword"
+        tools:text="Password">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPasscodeCheck"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="25px"
+        android:hint="Email"></EditText>
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="25px"
+        android:hint="Date of Birth"></EditText>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDOB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginBottom="25px"
+        android:text="Register A New Account">
+    </Button>
+
+</RelativeLayout>

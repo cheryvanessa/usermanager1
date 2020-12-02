@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEBEB"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvBetOnIt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350px"
+        android:text="Bet On It"
+        android:textSize="30sp">
+        Bet On It</TextView>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBetOnIt"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="150px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:hint="Username">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUsername"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="150px"
+        android:inputType="textPassword"
+        android:hint="Password">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPasscode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:text="Login">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:text="Register A New Account">
+
+    </Button>
+
+</RelativeLayout>
